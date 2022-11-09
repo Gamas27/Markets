@@ -10,9 +10,15 @@ import StocksAPI
 
 @main
 struct MarketsApp: App {
+    
+    @StateObject var appVM = AppViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            MainListView()
+            NavigationStack {
+                StockListView()
+            }
+            .environmentObject(appVM)
         }
     }
 }
