@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import StocksAPI
 
 #if DEBUG
 extension Ticker {

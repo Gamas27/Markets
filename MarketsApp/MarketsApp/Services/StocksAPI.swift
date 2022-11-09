@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import StocksAPI
 
 protocol StocksAPIRepository {
     func searchTickers(query: String, isEquityTypeOnly: Bool) async throws -> [Ticker]

@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import StocksAPI
 
 @main
 struct MarketsApp: App {

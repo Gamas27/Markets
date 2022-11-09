@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import StocksAPI
 
 struct StockListView: View {
     
